@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* pagina de estilo de Andrés S. Pereira Ch. el 17/12/18 */
+body{
+    background: rgb(38, 115, 82);
+    font-family: sans-serif;
+    font-size: 1.25rem;
+}
+h1{
+    color: white;
+    text-shadow: black 5px 5px; 
+    text-transform: uppercase;  
+}
+p{
+    color: white;
+    text-align: justify;
+}
+p.a{
+    background: rgb(172, 90, 57);
+    border: rgb(128, 36, 0) 20px solid;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-right: 50%;
+    padding: 10px;
+}
+p.b{
+    background: rgb(172, 122, 57);
+    border: rgb(128, 72, 0) 15px solid;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-left: 50%;
+    padding: 5px;
+}
+p.c{
+    background: rgb(0, 70, 128);
+    border: rgb(57, 120, 172) 5px dashed;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 20px; 
+}
+p.d{
+    color: black;
+    background: white;
+    border: black 10px solid;
+    border-radius: 30px;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 20px;
+}
